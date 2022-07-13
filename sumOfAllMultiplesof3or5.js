@@ -7,6 +7,3 @@ function findSum(n) {
 	}
 	return sum;
 }
-
-console.log(findSum(5));
-console.log(findSum(10));
