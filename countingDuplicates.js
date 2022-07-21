@@ -10,8 +10,7 @@ function duplicateCount(input) {
 			duplicates.push(text[i + 1]);
 		}
 	}
-	const distinct = [... new Set(duplicates)];
-	return distinct.length;
+	return [... new Set(duplicates)].length;
 }
 
 console.log(duplicateCount("")); // 0
