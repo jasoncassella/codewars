@@ -4,14 +4,14 @@ function squareDigits(num) {
 	let result = '';
 
 	for (let i = 0; i < string.length; i++) {
-		array.push(string[i])
+		array.push(string[i]);
 	}
 
-	const squaredArray = array.map(number => number * number)
+	const squaredArray = array.map(number => number * number);
 
-	squaredArray.forEach(number => result += number)
+	squaredArray.forEach(number => result += number);
 
-	return Number(result)
+	return Number(result);
 }
 
 console.log(squareDigits(3212), 9414);
