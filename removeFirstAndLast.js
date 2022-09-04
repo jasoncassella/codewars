@@ -1,8 +1,5 @@
 function removeChar(str) {
-  const array = [...str];
-  array.shift();
-  array.pop();
-  return array.join('');
+  return str.slice(1, -1);
 }
 
 console.log(removeChar('eloquent'), 'loquen');
