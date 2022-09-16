@@ -5,3 +5,8 @@ function reversedWords(str) {
 }
 
 console.log(reversedWords('the quick brown fox jumps over a lazy dog'));
+
+
+function name({ first, last }) {
+  console.log(first, last); 
+}
